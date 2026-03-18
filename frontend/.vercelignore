@@ -1,0 +1,14 @@
+node_modules/
+.git/
+.env
+.env.local
+.DS_Store
+*.log
+build/
+.vercelignore
+docker-compose.yml
+Dockerfile
+docs/
+backend/
+ai-engine/
+database/

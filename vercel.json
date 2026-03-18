@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "buildCommand": "echo 'Multi-service project - deploy each service separately'",
+  "projects": [
+    {
+      "name": "civic-issue-frontend",
+      "path": "frontend"
+    },
+    {
+      "name": "civic-issue-backend",
+      "path": "backend"
+    },
+    {
+      "name": "civic-issue-ai",
+      "path": "ai-engine"
+    }
+  ]
+}
