@@ -25,6 +25,11 @@ app.use('/api/auth', authRoutes);
 app.use('/api/complaints', complaintRoutes);
 app.use('/api/departments', departmentRoutes);
 
+// Root endpoint
+app.get('/', (req, res) => {
+  res.json({ message: 'LocalPulse API Server', version: '1.0.0', status: 'running' });
+});
+
 // Health check
 app.get('/health', (req, res) => {
   res.json({ status: 'OK', message: 'Server is running' });
